@@ -24,6 +24,6 @@ def secure_token
   end
 end
 
-SampleApp::Application.config.secret_key_base = secure_token
+TwitterApp::Application.config.secret_key_base = secure_token
 
 TwitterApp::Application.config.secret_key_base = '3dd48df1f167bfc4f281ab74d18a824801122f834ab51adf15d50f2a69b72b893e5774de23aaba81fa8815e051e9299dc527e156c5882797ae8c40384b1a52e5'
